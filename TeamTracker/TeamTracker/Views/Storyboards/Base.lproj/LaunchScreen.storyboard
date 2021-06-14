@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="QtY-cQ-0vl">
+                                <rect key="frame" x="87" y="333" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QtY-cQ-0vl" secondAttribute="height" multiplier="1:1" id="I9h-9s-29Q"/>
+                                    <constraint firstAttribute="width" constant="240" id="rH0-M8-Bl2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrueLeaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="dRx-7a-YrD">
+                                <rect key="frame" x="259" y="700" width="103.5" height="103.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dRx-7a-YrD" secondAttribute="height" multiplier="1:1" id="AKU-N7-vgn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="customDarkGray"/>
+                        <constraints>
+                            <constraint firstItem="dRx-7a-YrD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.5" id="dk8-Kn-67n"/>
+                            <constraint firstItem="QtY-cQ-0vl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dsd-Wa-qTG"/>
+                            <constraint firstItem="dRx-7a-YrD" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.25" id="sdD-6X-bJC"/>
+                            <constraint firstItem="dRx-7a-YrD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.66" id="tq0-TA-Cao"/>
+                            <constraint firstItem="QtY-cQ-0vl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="xpi-hq-gYx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TrueLeaLogo" width="500" height="500"/>
+        <image name="loadScreenLogo" width="500" height="500"/>
+        <namedColor name="customDarkGray">
+            <color red="0.29411765933036804" green="0.28235295414924622" blue="0.28627452254295349" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
